@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Scheme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Scheme of ChME3 Locomotive</h1>
+    <div id="scheme-container">
+        <!-- Здесь будет интерактивная схема -->
+        <svg id="scheme" width="600" height="400">
+            <!-- Компоненты и провода -->
+            <!-- Пример: -->
+            <rect id="component-kd2" x="100" y="100" width="50" height="50" fill="lightblue" />
+            <line id="wire-1" x1="150" y1="150" x2="200" y2="150" stroke="black" stroke-width="2" />
+
+
+            <line id="wire-2" x1="200" y1="150" x2="200" y2="250" stroke="black" stroke-width="2" />
+            <rect id="component-kd1" x="200" y="250" width="50" height="50" fill="lightblue" />
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
